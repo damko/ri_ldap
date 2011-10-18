@@ -172,7 +172,7 @@ class Ldap extends CI_Model {
 		//TODO to be really restfull I should also pass the url to get the next page
 		if(count($data) >= 1)
 		{
-			$data[]['RESTinfo'] = array(
+			$data['RestStatus'] = array(
 										'results_number' => $this->results_number,
 										'results_got_number' => $this->results_got_number,
 										'results_pages' => $this->results_pages,
