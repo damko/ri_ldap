@@ -82,14 +82,15 @@ class Ri_Ldap extends Ldap {
 			{
 				die ('I can not connect to any LDAP master or slave server');	
 			} else {
-				//TODO maybe we want to notify somehow that there is no master server
+				log_message('debug', 'No ldap master server found. Write operations will fail.');
 			}
 		}
 		
 		if(count($this->servers['slave']) == 0)	
 		{
-			//TODO maybe we want to notify somehow that there is no slave server and we are going to use the master both for writing and reading
+			log_message('debug', 'No ldap slave server found, master server will be used instead.');
 		}
+		
 		return true;
 	}
 	
