@@ -23,7 +23,7 @@
 /**
  * @see Zend_Ldap_Filter_String
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/String.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/String.php';
 
 /**
  * Zend_Ldap_Filter.
@@ -195,7 +195,7 @@ class Zend_Ldap_Filter extends Zend_Ldap_Filter_String
         /**
          * Zend_Ldap_Filter_Mask
          */
-        require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/Mask.php';
+        require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/Mask.php';
         return new Zend_Ldap_Filter_Mask($mask, $value);
     }
 
@@ -210,7 +210,7 @@ class Zend_Ldap_Filter extends Zend_Ldap_Filter_String
         /**
          * Zend_Ldap_Filter_And
          */
-        require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/And.php';
+        require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/And.php';
         return new Zend_Ldap_Filter_And(func_get_args());
     }
 
@@ -225,7 +225,7 @@ class Zend_Ldap_Filter extends Zend_Ldap_Filter_String
         /**
          * Zend_Ldap_Filter_Or
          */
-        require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/Or.php';
+        require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/Or.php';
         return new Zend_Ldap_Filter_Or(func_get_args());
     }
 

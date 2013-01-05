@@ -23,15 +23,15 @@
 /**
  * @see Zend_Ldap_Node_Schema
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Node/Schema.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Node/Schema.php';
 /**
  * @see Zend_Ldap_Node_Schema_AttributeType_ActiveDirectory
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Node/Schema/AttributeType/ActiveDirectory.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Node/Schema/AttributeType/ActiveDirectory.php';
 /**
  * @see Zend_Ldap_Node_Schema_ObjectClass_ActiveDirectory
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Node/Schema/ObjectClass/ActiveDirectory.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Node/Schema/ObjectClass/ActiveDirectory.php';
 
 /**
  * Zend_Ldap_Node_Schema_ActiveDirectory provides a simple data-container for the Schema node of

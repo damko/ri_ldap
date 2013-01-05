@@ -23,7 +23,7 @@
 /**
  * @see Zend_Ldap_Node
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Node.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Node.php';
 
 /**
  * Zend_Ldap_Node_ChildrenIterator provides an iterator to a collection of children nodes.

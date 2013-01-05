@@ -23,7 +23,7 @@
 /**
  * @see Zend_Ldap_Filter_Logical
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/Logical.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/Logical.php';
 
 /**
  * Zend_Ldap_Filter_And provides an 'and' filter.

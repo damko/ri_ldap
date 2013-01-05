@@ -23,11 +23,11 @@
 /**
  * @see Zend_Ldap_Attribute
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Attribute.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Attribute.php';
 /**
  * @see Zend_Ldap_Dn
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Dn.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Dn.php';
 
 /**
  * Zend_Ldap_Node_Abstract provides a bas eimplementation for LDAP nodes

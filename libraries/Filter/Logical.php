@@ -23,11 +23,11 @@
 /**
  * @see Zend_Ldap_Filter_Abstract
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/Abstract.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/Abstract.php';
 /**
  * @see Zend_Ldap_Filter_String
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/String.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/String.php';
 
 /**
  * Zend_Ldap_Filter_Logical provides a base implementation for a grouping filter.
@@ -71,7 +71,7 @@ abstract class Zend_Ldap_Filter_Logical extends Zend_Ldap_Filter_Abstract
                 /**
                  * @see Zend_Ldap_Filter_Exception
                  */
-                require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/Exception.php';
+                require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/Exception.php';
                 throw new Zend_Ldap_Filter_Exception('Only strings or Zend_Ldap_Filter_Abstract allowed.');
             }
         }

@@ -22,7 +22,7 @@
 /**
  * @see Zend_Ldap_Converter
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Converter.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Converter.php';
 
 /**
  * Zend_Ldap_Attribute is a collection of LDAP attribute related functions.

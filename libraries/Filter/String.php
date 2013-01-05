@@ -23,7 +23,7 @@
 /**
  * @see Zend_Ldap_Filter_Abstract
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/Abstract.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/Abstract.php';
 
 /**
  * Zend_Ldap_Filter_String provides a simple custom string filter.

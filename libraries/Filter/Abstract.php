@@ -59,7 +59,7 @@ abstract class Zend_Ldap_Filter_Abstract
         /**
          * Zend_Ldap_Filter_Not
          */
-        require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/Not.php';
+        require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/Not.php';
         return new Zend_Ldap_Filter_Not($this);
     }
 
@@ -74,7 +74,7 @@ abstract class Zend_Ldap_Filter_Abstract
         /**
          * Zend_Ldap_Filter_And
          */
-        require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/And.php';
+        require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/And.php';
         $fa = func_get_args();
         $args = array_merge(array($this), $fa);
         return new Zend_Ldap_Filter_And($args);
@@ -91,7 +91,7 @@ abstract class Zend_Ldap_Filter_Abstract
         /**
          * Zend_Ldap_Filter_Or
          */
-        require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Filter/Or.php';
+        require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Filter/Or.php';
         $fa = func_get_args();
         $args = array_merge(array($this), $fa);
         return new Zend_Ldap_Filter_Or($args);
@@ -115,7 +115,7 @@ abstract class Zend_Ldap_Filter_Abstract
         /**
          * @see Zend_Ldap_Converter
          */
-        require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Converter.php';
+        require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Converter.php';
 
         if (!is_array($values)) $values = array($values);
         foreach ($values as $key => $val) {
@@ -145,7 +145,7 @@ abstract class Zend_Ldap_Filter_Abstract
         /**
          * @see Zend_Ldap_Converter
          */
-        require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Converter.php';
+        require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Converter.php';
 
         if (!is_array($values)) $values = array($values);
         foreach ($values as $key => $value) {

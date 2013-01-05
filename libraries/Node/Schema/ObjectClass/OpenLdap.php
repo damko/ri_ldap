@@ -23,11 +23,11 @@
 /**
  * @see Zend_Ldap_Node_Schema_Item
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Node/Schema/Item.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Node/Schema/Item.php';
 /**
  * @see Zend_Ldap_Node_Schema_ObjectClass_Interface
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Node/Schema/ObjectClass/Interface.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Node/Schema/ObjectClass/Interface.php';
 
 /**
  * Zend_Ldap_Node_Schema_ObjectClass_OpenLdap provides access to the objectClass

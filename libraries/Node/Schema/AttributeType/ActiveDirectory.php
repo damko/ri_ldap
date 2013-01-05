@@ -23,11 +23,11 @@
 /**
  * @see Zend_Ldap_Node_Schema_Item
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Node/Schema/Item.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Node/Schema/Item.php';
 /**
  * @see Zend_Ldap_Node_Schema_AttributeType_Interface
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Node/Schema/AttributeType/Interface.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Node/Schema/AttributeType/Interface.php';
 
 /**
  * Zend_Ldap_Node_Schema_AttributeType_ActiveDirectory provides access to the attribute type

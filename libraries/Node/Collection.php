@@ -23,7 +23,7 @@
 /**
  * @see Zend_Ldap_Collection
  */
-require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Collection.php';
+require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Collection.php';
 
 
 /**
@@ -48,7 +48,7 @@ class Zend_Ldap_Node_Collection extends Zend_Ldap_Collection
         /**
          * @see Zend_Ldap_Node
          */
-        require_once SPARKPATH.'ri_ldap/0.0.1/libraries/Node.php';
+        require_once SPARKPATH.'ri_ldap/0.0.2/libraries/Node.php';
         $node = Zend_Ldap_Node::fromArray($data, true);
         $node->attachLdap($this->_iterator->getLdap());
         return $node;
