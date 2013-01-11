@@ -6,5 +6,5 @@ It natively supports master and slave LDAP architectures
 
 It has been tested with Code Igniter v.2.1.3
 
-It's one of the component of Contact Engine, a middleware application to store handle Contacts via API
+It's one of the components of Contact Engine, a middleware application to store handle Contacts via API
 (https://github.com/damko/Contact-Engine)
